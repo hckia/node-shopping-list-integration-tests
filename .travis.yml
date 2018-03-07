@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: b3OTzh8xHn7o91IuU8ylHM8MLKqHSXLbvWHDqidOAWQMyWYmSEuh3LOG3FAZdBnw6cD6KQuhKORDxvc/REU2pCRoHDndGNMljk7ygauatgoDRirafchshdEDeg/XgUS0lGr4bEyQsIxvrfMxSniYTO9qvGbs45RqFr0HtSt9hSQRBhxejPQHfgQWCJo4oPTPvianKedqOGOFjDkBCCIhPhXzuHNldzMBZMFofPMFK5G1MKAbtLVre0dlfDdftEMBMFTbJoACky7+rFvhefVA82Ydz9eH3SCsRyNF5nCQgQ2q7sXcHWVemWnutn3T3TcXoxfnyXULfemqw67kke7xVijbmE+PmGfYXWWRJsGkLiXZy5YHX4+lPMlds3U0Wfe218dwSPO1OGOvF+fpRxke+8BjMif66s3a16btEv6k9WnuJtPUt6t7q2VU6rZJgqh5c+Y69pc+oyUz1NJt6EbH6kkIujfct7JEzszgQQ5NJnRclDQsXdHrQJ5sCSEBluBnN5TrsNZVo4lxI+ESavPUTa/zRA7GrwBcqxbl+zYeI7HxagYRm73SDzvYbNvS7GLaOT3lB3p7W2NDSb70Iko1gh/kpZDBAZ8u6sETE3KZyaHAI1D/O8ZVdcw1RvfL1A+QKrNbFTJspYD91lWSRWu/QfG2Gi0mos2qtU4OqcKtnWE=
+  app: intense-earth-27055
+  on:
+    repo: hckia/node-shopping-list-integration-tests
+    branch: tests-for-recipes
